@@ -1,0 +1,133 @@
+body {
+	background: #272F40;
+}
+
+main {
+	margin-top: 7em;
+	padding: 1px 0 1px 5%;
+	border-left: 1px solid;
+}
+
+header {
+	margin-top: 0px;
+	position: fixed;
+	background-color: #2f434f;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	text-align: left;
+	z-index: 1;
+	height: 7 em;
+	padding: 10px;
+}
+
+header#home {
+	margin-top: 0px;
+	position: fixed;
+	background-color: #3f0159;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	text-align: center;
+	z-index: 1;
+}
+
+nav {
+	float: top;
+	height: 7em;
+	padding: 5px;
+	margin-top: 2.5%;
+}
+
+nav#big {
+	margin-top: 130px;
+}
+
+.frontPage {
+	margin-top: 5px;
+}
+
+.frontTitle {
+	margin-top: 525px;
+	padding: 1px;
+}
+
+h1 {
+         color: MediumVioletRed;
+	 font-family: "Courier New", monospace;
+         font-size: 40pt;
+}
+
+h2 {
+         color: MediumOrchid;
+	 font-family: monospace;
+         font-size: 30pt;
+}
+
+p,li,marquee,table {
+         color: white;
+         font-size: 15pt;
+}
+
+a:link {
+	color: #e3fffc;
+}
+
+a:visited {
+	color: #c4fff9;
+}
+
+a.fancy:hover {
+	color: #07dec7;
+}
+
+.button {
+	background-color: #590159;
+	border-radius: 20px;
+	color: #009da1;
+	padding: 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15pt;
+}
+
+.Button:hover {
+	background-color: DarkMagenta;
+	color: #00d6db;
+	font-size: 14pt;
+}
+
+.dropdown-button {
+	background-color: #700170;
+	border-radius: 10px;
+	color: #00d6db;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 13pt;
+	margin: 2px;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #3e5e63;
+	min-width: 50px;
+	z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #a352a3;
+	color: #00b6ba;
+}
