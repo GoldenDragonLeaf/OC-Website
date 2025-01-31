@@ -53,9 +53,9 @@ nav#big {
 }
 
 h1 {
-         color: MediumVioletRed;
-	 font-family: "Courier New", monospace;
-         font-size: 40pt;
+    color: MediumVioletRed;
+	font-family: "Courier New", monospace;
+    font-size: 40pt;
 }
 
 h2 {
@@ -71,14 +71,17 @@ p,li,marquee,table {
 
 a:link {
 	color: #e3fffc;
+	text-decoration: none;
 }
 
 a:visited {
 	color: #c4fff9;
+	text-decoration: none;
 }
 
 a.fancy:hover {
 	color: #07dec7;
+	text-decoration: none;
 }
 
 .button {
@@ -130,4 +133,40 @@ a.fancy:hover {
 .dropdown-content a:hover {
 	background-color: #a352a3;
 	color: #00b6ba;
+}
+
+table, th, td {
+	border: 1px solid white;
+  	border-collapse: collapse;
+}
+
+.art1 {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index:2000;
+	background-color: hsla(180, 20%, 69%, 0.8);
+}
+
+.art1:target {
+	display: block;
+}
+
+.enlarged {
+	max-height: 60%;
+	max-width: 60%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+#x_btn {
+	position: absolute;
+	top: 0;
+	cursor: pointer;
+	right: 0;
 }
